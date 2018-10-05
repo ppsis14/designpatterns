@@ -14,7 +14,7 @@ public class DuckSimulator {
         Quackable gooseDuck = new GooseAdapter(new Goose());
         Quackable pigeonDuck = new PigeonAdapter(new Pigeon());
 
-        System.out.println("\nDuck Simulator");
+        System.out.println("\nDuck Simulator: With Goose Adapter");
 
         simulate(mallardDuck);
         simulate(redheadDuck);
